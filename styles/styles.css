@@ -163,7 +163,7 @@ body {
     font-size: 0.87em;
 }
 
-@media screen and (max-width: 968px) {
+@media (max-width: 968px) {
 
     .section {
         display: flex;
