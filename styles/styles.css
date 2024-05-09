@@ -5,6 +5,8 @@
     --primary-color: #FFFFFF;
     --secondary-color: #C0C0C0;
     --button-color: #167BF7;
+    --button-color-hover: #106ED4;
+    --button-color-hover-secondary: #333333;
     --primary-font: "Inter", sans-serif;
 }
 
@@ -60,9 +62,17 @@ body {
     margin-bottom: 1em;
 }
 
+.button:hover {
+    background-color: var(--button-color-hover);
+}
+
 .button-secondary {
     background-color: transparent;
     border: 2px solid var(--primary-color);
+}
+
+.button-secondary:hover {
+    background-color: var(--button-color-hover-secondary);
 }
 
 .disclaimer {
@@ -141,6 +151,10 @@ body {
     text-decoration: none;
     color: var(--primary-color);
     font-size: 1em;
+}
+
+.footer__link:hover {
+    color: var(--secondary-color);
 }
 
 .footer__text {
