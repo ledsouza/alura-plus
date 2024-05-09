@@ -39,4 +39,5 @@ A página é responsiva e apresenta as seguintes seções:
 ### Observações:
 - Este projeto foi desenvolvido como parte de um curso de front-end.
 - O objetivo principal do projeto era praticar a criação de layouts responsivos e a utilização de CSS para estilizar elementos da página.
+- A página foi desenvolvida apenas pensando no acesso em desktop. Ela não será responsiva em outros dispositivos.
 - A página não é funcional e não se conecta com nenhum sistema real de assinatura ou plataforma de streaming.
