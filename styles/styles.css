@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --background-color: #00030C;
+    --primary-color: #FFFFFF;
+    --secondary-color: #C0C0C0;
+    --button-color: #167BF7;
+    --primary-font: "Inter", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.section {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.section-combo {
+    background-image: url(../assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.section__content {
+    margin: 0 6em;
+}
+
+.section__heading {
+    font-weight: 700;
+    font-size: 1.75em;
+}
+
+.combo__image {
+    padding-top: 1.375em;
+    padding-bottom: 3.365em;
+}
+
+.button {
+    text-decoration: none;
+    background-color: var(--button-color);
+    color: var(--primary-color);
+    border-radius: 8px;
+    padding: 1em;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.button-secondary {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+}
+
+.disclaimer {
+    color: var(--secondary-color);
+    font-size: 0.75em;
+}
+
+.section-info {
+    align-items: center;
+    margin-left: 10.31em;
+    margin-right: 7.5em;
+}
+
+.info__image {
+    width: 80%;
+    height: auto;
+}
+
+.heading-description {
+    font-size: 3em;
+    margin-bottom: 0.3em;
+}
+
+.section__description {
+    color: var(--secondary-color);
+    margin-right: 4.375em;
+}
+
+.button-inline {
+    display: inline-block;
+    margin: 2em 0;
+}
+
+.sectionDevices {
+    text-align: center;
+}
+
+.section__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 2.5em;
+    margin-bottom: 9.0625em;
+}
+
+.list__item {
+    margin-top: 1em;
+}
+
+.list__title {
+    font-size: 2em;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 7.5em 6.2em 7.5em;
+}
+
+.footer__image {
+    max-width: 6.375em;
+    max-height: 2.205em;
+    margin-bottom: 2.5em;
+}
+
+.footer__list {
+    display: flex;
+    gap: 2em;
+    list-style-type: none;
+    margin-bottom: 1.5em;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1em;
+}
+
+.footer__text {
+    color: var(--secondary-color);
+    font-size: 0.87em;
+}
